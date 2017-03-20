@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<section>
+		<title>Safety Concerns at Home</title>
+		<description>Most injuries to young children happen at home. Get on your hands and knees and look at your home from your child’s point of view. Look for possible dangers and remove them. What’s dangerous in a home depends on a child’s age and abilities.</description>
+		<subSection>
+			<title>Bathroom</title>
+			<description>Keep the bathroom door shut when not in use and consider applying a safety cover over the doorknob. Here are a few tips to help keep your child safe and injury free in the bathroom.</description>
+			<item>
+				<subtitle>Burn</subtitle>
+				<link>PageBurns</link>
+			</item>
+			<item>
+				<subtitle>Fall</subtitle>
+				<link>PageFalling</link>
+			</item>
+			<item>
+				<subtitle>Drowning</subtitle>
+				<link>PageDrowning</link>
+			</item>
+			<item>
+				<subtitle>Cut</subtitle>
+				<link>PageIngestion</link>
+			</item>
+			<item>
+				<subtitle>links</subtitle>
+				<link>PageLinks</link>
+			</item>
+		</subSection>
+		<subSection>
+			<title>Kitchen</title>
+			<description>Most childhood injuries occur in the kitchen. You can keep your child behind a safety gate or secure in a highchair when you are cleaning, cooking or making hot drinks to keep them safe.</description>
+			<item>
+				<subtitle>Burn</subtitle>
+				<link>PageBurnsCuts</link>
+			</item>
+			<item>
+				<subtitle>Highchairs</subtitle>
+				<link>PageHighchairs</link>
+			</item>
+			<item>
+				<subtitle>Choking</subtitle>
+				<link>PageChoking</link>
+			</item>
+			<item>
+				<subtitle>Ingestion</subtitle>
+				<link>PageIngestion_Kitchen</link>
+			</item>
+			<item>
+				<subtitle>Fall</subtitle>
+				<link>PageFalls_Kitchen</link>
+			</item>
+			<item>
+				<subtitle>links</subtitle>
+				<link>PageLinks_Kitchen</link>
+			</item>
+		</subSection>
+		<subSection>
+			<title>Living room</title>
+			<description>The living room is a common gathering room for family members of all ages, thus making it prone for injuries in children.</description>
+			<item>
+				<subtitle>Fall</subtitle>
+				<link>PageFalls_Living</link>
+			</item>
+			<item>
+				<subtitle>Choking</subtitle>
+				<link>PageChoking_Livingroom</link>
+			</item>
+			<item>
+				<subtitle>Playpen</subtitle>
+				<link>PagePlaypen</link>
+			</item>
+			<item>
+				<subtitle>Burn</subtitle>
+				<link>PageBurn_livingroom</link>
+			</item>
+			<item>
+				<subtitle>links</subtitle>
+				<link>PageLink_Livingroom</link>
+			</item>
+		</subSection>
+		<subSection>
+			<title>Nursery/bedroom</title>
+			<description>When preparing your child nursery or bedroom, the important thing to remember is to make sure that children are sleeping where they are safe.</description>
+			<item>
+				<subtitle>Sleep</subtitle>
+				<link>PageSafeSleep</link>
+			</item>
+			<item>
+				<subtitle>Crib</subtitle>
+				<link>PageCribSafety</link>
+			</item>
+			<item>
+				<subtitle>Fall</subtitle>
+				<link>PageFalls_Bedroom</link>
+			</item>
+			<item>
+				<subtitle>OtherBedroom</subtitle>
+				<link>PageOtherBedroom</link>
+			</item>
+		</subSection>
+		<subSection>
+			<title>Laundry room, stairs and garage</title>
+			<description>Children like to explore and once they are mobile it is especially important to keep all areas of the home safe for your child.</description>
+			<item>
+				<subtitle>Fall</subtitle>
+				<link>PageFalls_Laundry</link>
+			</item>
+			<item>
+				<subtitle>Ingestion</subtitle>
+				<link>PageIngestion_Laundry</link>
+			</item>
+			<item>
+				<subtitle>SafetyTrip</subtitle>
+				<link>PageSafetyTips</link>
+			</item>
+		</subSection>
+		<subSection>
+			<title>Fire safety</title>
+			<description>You should be aware of the potential hazards in your home that can cause a fire. The safest thing you can do to prepare is to be aware of these fire hazards and take steps to prevent a fire from happening in your home.</description>
+			<item>
+				<subtitle>Fire safety</subtitle>
+				<link>PageFireSafety</link>
+			</item>
+		</subSection>
+	</section>
+</rss>

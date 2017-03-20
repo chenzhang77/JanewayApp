@@ -1,0 +1,1113 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0608AE171D095095008EFB79 /* OnGoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608AE161D095095008EFB79 /* OnGoTableViewController.m */; };
+		0608AE1A1D0950B7008EFB79 /* OnGoSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608AE191D0950B7008EFB79 /* OnGoSubTableViewController.m */; };
+		0608AE1D1D096873008EFB79 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608AE1C1D096873008EFB79 /* ImageTableViewCell.m */; };
+		0608AE201D096887008EFB79 /* WebTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608AE1F1D096887008EFB79 /* WebTableViewCell.m */; };
+		069986EA1D31C71000359784 /* PageBurnsCuts.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986E91D31C71000359784 /* PageBurnsCuts.html */; };
+		069986EC1D31C7BB00359784 /* PageHighchairs.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986EB1D31C7BB00359784 /* PageHighchairs.html */; };
+		069986F01D31C88800359784 /* PageChoking.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986EF1D31C88800359784 /* PageChoking.html */; };
+		069986F21D31C95200359784 /* PageIngestion_Kitchen.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986F11D31C95200359784 /* PageIngestion_Kitchen.html */; };
+		069986F41D31C9FB00359784 /* PageFalls_Kitchen.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986F31D31C9FB00359784 /* PageFalls_Kitchen.html */; };
+		069986F61D31CA5700359784 /* PageLinks_Kitchen.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986F51D31CA5700359784 /* PageLinks_Kitchen.html */; };
+		069986F81D31CB9800359784 /* PageFalls_Living.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986F71D31CB9800359784 /* PageFalls_Living.html */; };
+		069986FA1D31CCA500359784 /* PageChoking_Livingroom.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986F91D31CCA500359784 /* PageChoking_Livingroom.html */; };
+		069986FC1D31CD6700359784 /* PagePlaypen.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986FB1D31CD6700359784 /* PagePlaypen.html */; };
+		069986FE1D31CDF600359784 /* PageBurn_livingroom.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986FD1D31CDF600359784 /* PageBurn_livingroom.html */; };
+		069987001D31CE5900359784 /* PageLink_Livingroom.html in Resources */ = {isa = PBXBuildFile; fileRef = 069986FF1D31CE5900359784 /* PageLink_Livingroom.html */; };
+		069987021D31D01900359784 /* PageSafeSleep.html in Resources */ = {isa = PBXBuildFile; fileRef = 069987011D31D01900359784 /* PageSafeSleep.html */; };
+		069987041D31D1C400359784 /* PageCribSafety.html in Resources */ = {isa = PBXBuildFile; fileRef = 069987031D31D1C400359784 /* PageCribSafety.html */; };
+		069987061D31D40C00359784 /* PageFalls_Bedroom.html in Resources */ = {isa = PBXBuildFile; fileRef = 069987051D31D40C00359784 /* PageFalls_Bedroom.html */; };
+		069987081D31D68C00359784 /* PageOtherBedroom.html in Resources */ = {isa = PBXBuildFile; fileRef = 069987071D31D68C00359784 /* PageOtherBedroom.html */; };
+		0699870A1D31D73A00359784 /* PageFalls_Laundry.html in Resources */ = {isa = PBXBuildFile; fileRef = 069987091D31D73A00359784 /* PageFalls_Laundry.html */; };
+		0699870C1D31D7EA00359784 /* PageIngestion_Laundry.html in Resources */ = {isa = PBXBuildFile; fileRef = 0699870B1D31D7EA00359784 /* PageIngestion_Laundry.html */; };
+		0699870E1D31D91500359784 /* PageSafetyTips.html in Resources */ = {isa = PBXBuildFile; fileRef = 0699870D1D31D91500359784 /* PageSafetyTips.html */; };
+		069987101D31D96C00359784 /* PageFireSafety.html in Resources */ = {isa = PBXBuildFile; fileRef = 0699870F1D31D96C00359784 /* PageFireSafety.html */; };
+		069987121D31DD2D00359784 /* PageCarSeatSafety.html in Resources */ = {isa = PBXBuildFile; fileRef = 069987111D31DD2D00359784 /* PageCarSeatSafety.html */; };
+		069987141D31DF7F00359784 /* PagesStrollerSafety.html in Resources */ = {isa = PBXBuildFile; fileRef = 069987131D31DF7F00359784 /* PagesStrollerSafety.html */; };
+		069987161D31E04E00359784 /* PagesPlaygroundSafety.html in Resources */ = {isa = PBXBuildFile; fileRef = 069987151D31E04E00359784 /* PagesPlaygroundSafety.html */; };
+		069987181D31E12600359784 /* PagesBaby.html in Resources */ = {isa = PBXBuildFile; fileRef = 069987171D31E12600359784 /* PagesBaby.html */; };
+		0699871A1D31E1A600359784 /* PagesTraveling.html in Resources */ = {isa = PBXBuildFile; fileRef = 069987191D31E1A600359784 /* PagesTraveling.html */; };
+		0699871C1D31E3E400359784 /* PagesDriveway.html in Resources */ = {isa = PBXBuildFile; fileRef = 0699871B1D31E3E400359784 /* PagesDriveway.html */; };
+		0699871E1D31E46D00359784 /* PageLink_OnGo.html in Resources */ = {isa = PBXBuildFile; fileRef = 0699871D1D31E46D00359784 /* PageLink_OnGo.html */; };
+		311E6BC81D6CDA8D0085CC40 /* onGo.xml in Resources */ = {isa = PBXBuildFile; fileRef = 311E6BC71D6CDA8D0085CC40 /* onGo.xml */; };
+		311E6BCE1D6DE1F00085CC40 /* atHome.xml in Resources */ = {isa = PBXBuildFile; fileRef = 311E6BCD1D6DE1F00085CC40 /* atHome.xml */; };
+		316D15491D316AE300DC0D86 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D15481D316AE300DC0D86 /* InfoViewController.m */; };
+		316D154C1D316B8900DC0D86 /* BulletinTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D154B1D316B8900DC0D86 /* BulletinTableViewController.m */; };
+		316D154E1D3412BE00DC0D86 /* PageInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = 316D154D1D3412BE00DC0D86 /* PageInfo.html */; };
+		31771C4B1CE2BFC500DE863D /* navi.png in Resources */ = {isa = PBXBuildFile; fileRef = 31771C4A1CE2BFC500DE863D /* navi.png */; };
+		31A228C01D08A92C0099FFA0 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A228BF1D08A92C0099FFA0 /* WebViewController.m */; };
+		31AFD9611D09FA230044DA2D /* OnGoWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AFD9601D09FA230044DA2D /* OnGoWebViewController.m */; };
+		31C819D01E774D8300806DCA /* setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31C819CF1E774D8300806DCA /* setting.plist */; };
+		31C819D51E784F7D00806DCA /* janewayDB.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 31C819D41E784F7D00806DCA /* janewayDB.sqlite3 */; };
+		31C819D81E7B031800806DCA /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C819D71E7B031800806DCA /* MessageTableViewCell.m */; };
+		31C819DB1E7C36CC00806DCA /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C819DA1E7C36CC00806DCA /* MessageViewController.m */; };
+		31E8A7DA1CE0B85400555E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A7D91CE0B85400555E10 /* main.m */; };
+		31E8A7DD1CE0B85400555E10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A7DC1CE0B85400555E10 /* AppDelegate.m */; };
+		31E8A7E31CE0B85400555E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E8A7E11CE0B85400555E10 /* Main.storyboard */; };
+		31E8A7E61CE0B85400555E10 /* JanewayApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A7E41CE0B85400555E10 /* JanewayApp.xcdatamodeld */; };
+		31E8A7E81CE0B85400555E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E8A7E71CE0B85400555E10 /* Assets.xcassets */; };
+		31E8A7EB1CE0B85400555E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E8A7E91CE0B85400555E10 /* LaunchScreen.storyboard */; };
+		31E8A7F61CE0B85400555E10 /* JanewayAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A7F51CE0B85400555E10 /* JanewayAppTests.m */; };
+		31E8A8011CE0B85400555E10 /* JanewayAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A8001CE0B85400555E10 /* JanewayAppUITests.m */; };
+		31E8A8101CE0BC2B00555E10 /* AtHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A80F1CE0BC2B00555E10 /* AtHomeTableViewController.m */; };
+		31E8A8131CE0BC5800555E10 /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A8121CE0BC5800555E10 /* FirstTableViewCell.m */; };
+		31E8A8161CE0BC6900555E10 /* RemainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A8151CE0BC6900555E10 /* RemainTableViewCell.m */; };
+		31E8A81E1CE0CAE900555E10 /* Section+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A81B1CE0CAE900555E10 /* Section+CoreDataProperties.m */; };
+		31E8A81F1CE0CAE900555E10 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A81D1CE0CAE900555E10 /* Section.m */; };
+		31E8A8231CE0E13C00555E10 /* SubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A8221CE0E13C00555E10 /* SubTableViewController.m */; };
+		31E8A8261CE0E19A00555E10 /* subTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E8A8251CE0E19A00555E10 /* subTableViewCell.m */; };
+		3662BB668A7A46C26709E1D1 /* libPods-JanewayAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A1C45E77F0B0207FA89788 /* libPods-JanewayAppUITests.a */; };
+		63341A6B01B12F5F62250CBD /* libPods-JanewayAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 087B39E9FF4574E49236EBBF /* libPods-JanewayAppTests.a */; };
+		D505896E28560C22DEF25A92 /* libPods-JanewayApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D546293D78D7D674F36001 /* libPods-JanewayApp.a */; };
+		EAD9AAAE1D0B1305007316E8 /* PageBurns.html in Resources */ = {isa = PBXBuildFile; fileRef = EAD9AAAD1D0B1305007316E8 /* PageBurns.html */; };
+		EAD9AAB01D0B1332007316E8 /* PageFalling.html in Resources */ = {isa = PBXBuildFile; fileRef = EAD9AAAF1D0B1332007316E8 /* PageFalling.html */; };
+		EAD9AAB21D0B13A0007316E8 /* PageDrowning.html in Resources */ = {isa = PBXBuildFile; fileRef = EAD9AAB11D0B13A0007316E8 /* PageDrowning.html */; };
+		EAD9AAB41D0B1402007316E8 /* PageIngestion.html in Resources */ = {isa = PBXBuildFile; fileRef = EAD9AAB31D0B1402007316E8 /* PageIngestion.html */; };
+		EAD9AAB61D0B14A8007316E8 /* PageLinks.html in Resources */ = {isa = PBXBuildFile; fileRef = EAD9AAB51D0B14A8007316E8 /* PageLinks.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31E8A7F21CE0B85400555E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31E8A7CD1CE0B85400555E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E8A7D41CE0B85400555E10;
+			remoteInfo = JanewayApp;
+		};
+		31E8A7FD1CE0B85400555E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31E8A7CD1CE0B85400555E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E8A7D41CE0B85400555E10;
+			remoteInfo = JanewayApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045238EB068DEAB79C7FE018 /* Pods-JanewayApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanewayApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-JanewayApp/Pods-JanewayApp.release.xcconfig"; sourceTree = "<group>"; };
+		0608AE151D095095008EFB79 /* OnGoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnGoTableViewController.h; sourceTree = "<group>"; };
+		0608AE161D095095008EFB79 /* OnGoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnGoTableViewController.m; sourceTree = "<group>"; };
+		0608AE181D0950B7008EFB79 /* OnGoSubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnGoSubTableViewController.h; sourceTree = "<group>"; };
+		0608AE191D0950B7008EFB79 /* OnGoSubTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnGoSubTableViewController.m; sourceTree = "<group>"; };
+		0608AE1B1D096873008EFB79 /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		0608AE1C1D096873008EFB79 /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
+		0608AE1E1D096887008EFB79 /* WebTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebTableViewCell.h; sourceTree = "<group>"; };
+		0608AE1F1D096887008EFB79 /* WebTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebTableViewCell.m; sourceTree = "<group>"; };
+		069986E91D31C71000359784 /* PageBurnsCuts.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageBurnsCuts.html; sourceTree = "<group>"; };
+		069986EB1D31C7BB00359784 /* PageHighchairs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageHighchairs.html; sourceTree = "<group>"; };
+		069986EF1D31C88800359784 /* PageChoking.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageChoking.html; sourceTree = "<group>"; };
+		069986F11D31C95200359784 /* PageIngestion_Kitchen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageIngestion_Kitchen.html; sourceTree = "<group>"; };
+		069986F31D31C9FB00359784 /* PageFalls_Kitchen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageFalls_Kitchen.html; sourceTree = "<group>"; };
+		069986F51D31CA5700359784 /* PageLinks_Kitchen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageLinks_Kitchen.html; sourceTree = "<group>"; };
+		069986F71D31CB9800359784 /* PageFalls_Living.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageFalls_Living.html; sourceTree = "<group>"; };
+		069986F91D31CCA500359784 /* PageChoking_Livingroom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageChoking_Livingroom.html; sourceTree = "<group>"; };
+		069986FB1D31CD6700359784 /* PagePlaypen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PagePlaypen.html; sourceTree = "<group>"; };
+		069986FD1D31CDF600359784 /* PageBurn_livingroom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageBurn_livingroom.html; sourceTree = "<group>"; };
+		069986FF1D31CE5900359784 /* PageLink_Livingroom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageLink_Livingroom.html; sourceTree = "<group>"; };
+		069987011D31D01900359784 /* PageSafeSleep.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageSafeSleep.html; sourceTree = "<group>"; };
+		069987031D31D1C400359784 /* PageCribSafety.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageCribSafety.html; sourceTree = "<group>"; };
+		069987051D31D40C00359784 /* PageFalls_Bedroom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageFalls_Bedroom.html; sourceTree = "<group>"; };
+		069987071D31D68C00359784 /* PageOtherBedroom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageOtherBedroom.html; sourceTree = "<group>"; };
+		069987091D31D73A00359784 /* PageFalls_Laundry.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageFalls_Laundry.html; sourceTree = "<group>"; };
+		0699870B1D31D7EA00359784 /* PageIngestion_Laundry.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageIngestion_Laundry.html; sourceTree = "<group>"; };
+		0699870D1D31D91500359784 /* PageSafetyTips.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageSafetyTips.html; sourceTree = "<group>"; };
+		0699870F1D31D96C00359784 /* PageFireSafety.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageFireSafety.html; sourceTree = "<group>"; };
+		069987111D31DD2D00359784 /* PageCarSeatSafety.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageCarSeatSafety.html; sourceTree = "<group>"; };
+		069987131D31DF7F00359784 /* PagesStrollerSafety.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PagesStrollerSafety.html; sourceTree = "<group>"; };
+		069987151D31E04E00359784 /* PagesPlaygroundSafety.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PagesPlaygroundSafety.html; sourceTree = "<group>"; };
+		069987171D31E12600359784 /* PagesBaby.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PagesBaby.html; sourceTree = "<group>"; };
+		069987191D31E1A600359784 /* PagesTraveling.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PagesTraveling.html; sourceTree = "<group>"; };
+		0699871B1D31E3E400359784 /* PagesDriveway.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PagesDriveway.html; sourceTree = "<group>"; };
+		0699871D1D31E46D00359784 /* PageLink_OnGo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageLink_OnGo.html; sourceTree = "<group>"; };
+		087B39E9FF4574E49236EBBF /* libPods-JanewayAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JanewayAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CEEB5BC3538325666F3BFB3 /* Pods-JanewayAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanewayAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JanewayAppTests/Pods-JanewayAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		311E6BC71D6CDA8D0085CC40 /* onGo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = onGo.xml; sourceTree = "<group>"; };
+		311E6BCD1D6DE1F00085CC40 /* atHome.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atHome.xml; sourceTree = "<group>"; };
+		316D15471D316AE300DC0D86 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		316D15481D316AE300DC0D86 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		316D154A1D316B8900DC0D86 /* BulletinTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletinTableViewController.h; sourceTree = "<group>"; };
+		316D154B1D316B8900DC0D86 /* BulletinTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletinTableViewController.m; sourceTree = "<group>"; };
+		316D154D1D3412BE00DC0D86 /* PageInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageInfo.html; sourceTree = "<group>"; };
+		31771C4A1CE2BFC500DE863D /* navi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi.png; sourceTree = "<group>"; };
+		31A228BE1D08A92C0099FFA0 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		31A228BF1D08A92C0099FFA0 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		31AFD95F1D09FA230044DA2D /* OnGoWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnGoWebViewController.h; sourceTree = "<group>"; };
+		31AFD9601D09FA230044DA2D /* OnGoWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnGoWebViewController.m; sourceTree = "<group>"; };
+		31C819CF1E774D8300806DCA /* setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting.plist; sourceTree = "<group>"; };
+		31C819D41E784F7D00806DCA /* janewayDB.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = janewayDB.sqlite3; sourceTree = "<group>"; };
+		31C819D61E7B031800806DCA /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		31C819D71E7B031800806DCA /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		31C819D91E7C36CC00806DCA /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		31C819DA1E7C36CC00806DCA /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		31E8A7D51CE0B85400555E10 /* JanewayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JanewayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E8A7D91CE0B85400555E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31E8A7DB1CE0B85400555E10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31E8A7DC1CE0B85400555E10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31E8A7E21CE0B85400555E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31E8A7E51CE0B85400555E10 /* JanewayApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JanewayApp.xcdatamodel; sourceTree = "<group>"; };
+		31E8A7E71CE0B85400555E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31E8A7EA1CE0B85400555E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31E8A7EC1CE0B85400555E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E8A7F11CE0B85400555E10 /* JanewayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JanewayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E8A7F51CE0B85400555E10 /* JanewayAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JanewayAppTests.m; sourceTree = "<group>"; };
+		31E8A7F71CE0B85400555E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E8A7FC1CE0B85400555E10 /* JanewayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JanewayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E8A8001CE0B85400555E10 /* JanewayAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JanewayAppUITests.m; sourceTree = "<group>"; };
+		31E8A8021CE0B85400555E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E8A80E1CE0BC2B00555E10 /* AtHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtHomeTableViewController.h; sourceTree = "<group>"; };
+		31E8A80F1CE0BC2B00555E10 /* AtHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtHomeTableViewController.m; sourceTree = "<group>"; };
+		31E8A8111CE0BC5800555E10 /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		31E8A8121CE0BC5800555E10 /* FirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		31E8A8141CE0BC6900555E10 /* RemainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemainTableViewCell.h; sourceTree = "<group>"; };
+		31E8A8151CE0BC6900555E10 /* RemainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemainTableViewCell.m; sourceTree = "<group>"; };
+		31E8A81A1CE0CAE900555E10 /* Section+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Section+CoreDataProperties.h"; sourceTree = "<group>"; };
+		31E8A81B1CE0CAE900555E10 /* Section+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Section+CoreDataProperties.m"; sourceTree = "<group>"; };
+		31E8A81C1CE0CAE900555E10 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		31E8A81D1CE0CAE900555E10 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		31E8A8211CE0E13C00555E10 /* SubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTableViewController.h; sourceTree = "<group>"; };
+		31E8A8221CE0E13C00555E10 /* SubTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTableViewController.m; sourceTree = "<group>"; };
+		31E8A8241CE0E19A00555E10 /* subTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subTableViewCell.h; sourceTree = "<group>"; };
+		31E8A8251CE0E19A00555E10 /* subTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subTableViewCell.m; sourceTree = "<group>"; };
+		35B70E68AEFAAB5BA96BA5E4 /* Pods-JanewayAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanewayAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JanewayAppUITests/Pods-JanewayAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		362F3B1EBF9389B3129C7579 /* Pods-JanewayApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanewayApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JanewayApp/Pods-JanewayApp.debug.xcconfig"; sourceTree = "<group>"; };
+		58A1C45E77F0B0207FA89788 /* libPods-JanewayAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JanewayAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9B178402EE9CB5B5998F9B /* Pods-JanewayAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanewayAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JanewayAppTests/Pods-JanewayAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9ADF6EBCAAC05FFC860C42 /* Pods-JanewayAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JanewayAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JanewayAppUITests/Pods-JanewayAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99D546293D78D7D674F36001 /* libPods-JanewayApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JanewayApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD9AAAD1D0B1305007316E8 /* PageBurns.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageBurns.html; sourceTree = "<group>"; };
+		EAD9AAAF1D0B1332007316E8 /* PageFalling.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageFalling.html; sourceTree = "<group>"; };
+		EAD9AAB11D0B13A0007316E8 /* PageDrowning.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageDrowning.html; sourceTree = "<group>"; };
+		EAD9AAB31D0B1402007316E8 /* PageIngestion.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageIngestion.html; sourceTree = "<group>"; };
+		EAD9AAB51D0B14A8007316E8 /* PageLinks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageLinks.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31E8A7D21CE0B85400555E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D505896E28560C22DEF25A92 /* libPods-JanewayApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E8A7EE1CE0B85400555E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63341A6B01B12F5F62250CBD /* libPods-JanewayAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E8A7F91CE0B85400555E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3662BB668A7A46C26709E1D1 /* libPods-JanewayAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069986DF1D31C21800359784 /* At Home */ = {
+			isa = PBXGroup;
+			children = (
+				069986E51D31C5C600359784 /* Fire Safety */,
+				069986E41D31C54A00359784 /* Laundry room, Stairs and Garage  */,
+				069986E31D31C53800359784 /* Nursery/Bedroom  */,
+				069986E21D31C52700359784 /* Living room */,
+				069986E11D31C50F00359784 /* Kitchen */,
+				069986E01D31C27900359784 /* Bathroom */,
+			);
+			name = "At Home";
+			sourceTree = "<group>";
+		};
+		069986E01D31C27900359784 /* Bathroom */ = {
+			isa = PBXGroup;
+			children = (
+				EAD9AAAD1D0B1305007316E8 /* PageBurns.html */,
+				EAD9AAAF1D0B1332007316E8 /* PageFalling.html */,
+				EAD9AAB11D0B13A0007316E8 /* PageDrowning.html */,
+				EAD9AAB31D0B1402007316E8 /* PageIngestion.html */,
+				EAD9AAB51D0B14A8007316E8 /* PageLinks.html */,
+			);
+			name = Bathroom;
+			sourceTree = "<group>";
+		};
+		069986E11D31C50F00359784 /* Kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				069986E91D31C71000359784 /* PageBurnsCuts.html */,
+				069986EB1D31C7BB00359784 /* PageHighchairs.html */,
+				069986EF1D31C88800359784 /* PageChoking.html */,
+				069986F11D31C95200359784 /* PageIngestion_Kitchen.html */,
+				069986F31D31C9FB00359784 /* PageFalls_Kitchen.html */,
+				069986F51D31CA5700359784 /* PageLinks_Kitchen.html */,
+			);
+			name = Kitchen;
+			sourceTree = "<group>";
+		};
+		069986E21D31C52700359784 /* Living room */ = {
+			isa = PBXGroup;
+			children = (
+				069986F71D31CB9800359784 /* PageFalls_Living.html */,
+				069986F91D31CCA500359784 /* PageChoking_Livingroom.html */,
+				069986FB1D31CD6700359784 /* PagePlaypen.html */,
+				069986FD1D31CDF600359784 /* PageBurn_livingroom.html */,
+				069986FF1D31CE5900359784 /* PageLink_Livingroom.html */,
+			);
+			name = "Living room";
+			sourceTree = "<group>";
+		};
+		069986E31D31C53800359784 /* Nursery/Bedroom  */ = {
+			isa = PBXGroup;
+			children = (
+				069987011D31D01900359784 /* PageSafeSleep.html */,
+				069987031D31D1C400359784 /* PageCribSafety.html */,
+				069987051D31D40C00359784 /* PageFalls_Bedroom.html */,
+				069987071D31D68C00359784 /* PageOtherBedroom.html */,
+			);
+			name = "Nursery/Bedroom ";
+			sourceTree = "<group>";
+		};
+		069986E41D31C54A00359784 /* Laundry room, Stairs and Garage  */ = {
+			isa = PBXGroup;
+			children = (
+				069987091D31D73A00359784 /* PageFalls_Laundry.html */,
+				0699870B1D31D7EA00359784 /* PageIngestion_Laundry.html */,
+				0699870D1D31D91500359784 /* PageSafetyTips.html */,
+			);
+			name = "Laundry room, Stairs and Garage ";
+			sourceTree = "<group>";
+		};
+		069986E51D31C5C600359784 /* Fire Safety */ = {
+			isa = PBXGroup;
+			children = (
+				0699870F1D31D96C00359784 /* PageFireSafety.html */,
+			);
+			name = "Fire Safety";
+			sourceTree = "<group>";
+		};
+		069986E61D31C5D200359784 /* On Go */ = {
+			isa = PBXGroup;
+			children = (
+				069987111D31DD2D00359784 /* PageCarSeatSafety.html */,
+				069987131D31DF7F00359784 /* PagesStrollerSafety.html */,
+				069987151D31E04E00359784 /* PagesPlaygroundSafety.html */,
+				069987171D31E12600359784 /* PagesBaby.html */,
+				069987191D31E1A600359784 /* PagesTraveling.html */,
+				0699871B1D31E3E400359784 /* PagesDriveway.html */,
+				0699871D1D31E46D00359784 /* PageLink_OnGo.html */,
+			);
+			name = "On Go";
+			sourceTree = "<group>";
+		};
+		316D15451D31684A00DC0D86 /* Bulletin */ = {
+			isa = PBXGroup;
+			children = (
+				316D154A1D316B8900DC0D86 /* BulletinTableViewController.h */,
+				316D154B1D316B8900DC0D86 /* BulletinTableViewController.m */,
+				31C819D91E7C36CC00806DCA /* MessageViewController.h */,
+				31C819DA1E7C36CC00806DCA /* MessageViewController.m */,
+			);
+			name = Bulletin;
+			sourceTree = "<group>";
+		};
+		316D15461D31686000DC0D86 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				316D15471D316AE300DC0D86 /* InfoViewController.h */,
+				316D15481D316AE300DC0D86 /* InfoViewController.m */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		316D154F1D3412C700DC0D86 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				316D154D1D3412BE00DC0D86 /* PageInfo.html */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		31A228BC1D08A4620099FFA0 /* At Home */ = {
+			isa = PBXGroup;
+			children = (
+				31E8A80E1CE0BC2B00555E10 /* AtHomeTableViewController.h */,
+				31E8A80F1CE0BC2B00555E10 /* AtHomeTableViewController.m */,
+				31E8A8211CE0E13C00555E10 /* SubTableViewController.h */,
+				31E8A8221CE0E13C00555E10 /* SubTableViewController.m */,
+				31A228BE1D08A92C0099FFA0 /* WebViewController.h */,
+				31A228BF1D08A92C0099FFA0 /* WebViewController.m */,
+			);
+			name = "At Home";
+			sourceTree = "<group>";
+		};
+		31A228BD1D08A4760099FFA0 /* On Go */ = {
+			isa = PBXGroup;
+			children = (
+				0608AE151D095095008EFB79 /* OnGoTableViewController.h */,
+				0608AE161D095095008EFB79 /* OnGoTableViewController.m */,
+				0608AE181D0950B7008EFB79 /* OnGoSubTableViewController.h */,
+				0608AE191D0950B7008EFB79 /* OnGoSubTableViewController.m */,
+				31AFD95F1D09FA230044DA2D /* OnGoWebViewController.h */,
+				31AFD9601D09FA230044DA2D /* OnGoWebViewController.m */,
+			);
+			name = "On Go";
+			sourceTree = "<group>";
+		};
+		31A228C11D08AA790099FFA0 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				316D154F1D3412C700DC0D86 /* Info */,
+				069986E61D31C5D200359784 /* On Go */,
+				069986DF1D31C21800359784 /* At Home */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+		31E8A7CC1CE0B85400555E10 = {
+			isa = PBXGroup;
+			children = (
+				31E8A7D71CE0B85400555E10 /* JanewayApp */,
+				31E8A7F41CE0B85400555E10 /* JanewayAppTests */,
+				31E8A7FF1CE0B85400555E10 /* JanewayAppUITests */,
+				31E8A7D61CE0B85400555E10 /* Products */,
+				5CB6B099B7FB47CB234072D4 /* Pods */,
+				BCF937AEB521A5137AB6D3E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31E8A7D61CE0B85400555E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31E8A7D51CE0B85400555E10 /* JanewayApp.app */,
+				31E8A7F11CE0B85400555E10 /* JanewayAppTests.xctest */,
+				31E8A7FC1CE0B85400555E10 /* JanewayAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31E8A7D71CE0B85400555E10 /* JanewayApp */ = {
+			isa = PBXGroup;
+			children = (
+				316D15461D31686000DC0D86 /* Info */,
+				316D15451D31684A00DC0D86 /* Bulletin */,
+				31A228C11D08AA790099FFA0 /* HTML */,
+				31A228BD1D08A4760099FFA0 /* On Go */,
+				31A228BC1D08A4620099FFA0 /* At Home */,
+				31E8A8201CE0CAEF00555E10 /* Model */,
+				31E8A8171CE0BC6F00555E10 /* Cell */,
+				31E8A7DB1CE0B85400555E10 /* AppDelegate.h */,
+				31E8A7DC1CE0B85400555E10 /* AppDelegate.m */,
+				31E8A7E11CE0B85400555E10 /* Main.storyboard */,
+				31E8A7E71CE0B85400555E10 /* Assets.xcassets */,
+				31771C4A1CE2BFC500DE863D /* navi.png */,
+				31E8A7E91CE0B85400555E10 /* LaunchScreen.storyboard */,
+				31E8A7EC1CE0B85400555E10 /* Info.plist */,
+				31E8A7D81CE0B85400555E10 /* Supporting Files */,
+			);
+			path = JanewayApp;
+			sourceTree = "<group>";
+		};
+		31E8A7D81CE0B85400555E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31C819D41E784F7D00806DCA /* janewayDB.sqlite3 */,
+				311E6BCD1D6DE1F00085CC40 /* atHome.xml */,
+				311E6BC71D6CDA8D0085CC40 /* onGo.xml */,
+				31E8A7D91CE0B85400555E10 /* main.m */,
+				31C819CF1E774D8300806DCA /* setting.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31E8A7F41CE0B85400555E10 /* JanewayAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				31E8A7F51CE0B85400555E10 /* JanewayAppTests.m */,
+				31E8A7F71CE0B85400555E10 /* Info.plist */,
+			);
+			path = JanewayAppTests;
+			sourceTree = "<group>";
+		};
+		31E8A7FF1CE0B85400555E10 /* JanewayAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31E8A8001CE0B85400555E10 /* JanewayAppUITests.m */,
+				31E8A8021CE0B85400555E10 /* Info.plist */,
+			);
+			path = JanewayAppUITests;
+			sourceTree = "<group>";
+		};
+		31E8A8171CE0BC6F00555E10 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				31E8A8111CE0BC5800555E10 /* FirstTableViewCell.h */,
+				31E8A8121CE0BC5800555E10 /* FirstTableViewCell.m */,
+				31E8A8141CE0BC6900555E10 /* RemainTableViewCell.h */,
+				31E8A8151CE0BC6900555E10 /* RemainTableViewCell.m */,
+				31E8A8241CE0E19A00555E10 /* subTableViewCell.h */,
+				31E8A8251CE0E19A00555E10 /* subTableViewCell.m */,
+				0608AE1B1D096873008EFB79 /* ImageTableViewCell.h */,
+				0608AE1C1D096873008EFB79 /* ImageTableViewCell.m */,
+				0608AE1E1D096887008EFB79 /* WebTableViewCell.h */,
+				0608AE1F1D096887008EFB79 /* WebTableViewCell.m */,
+				31C819D61E7B031800806DCA /* MessageTableViewCell.h */,
+				31C819D71E7B031800806DCA /* MessageTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		31E8A8201CE0CAEF00555E10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31E8A7E41CE0B85400555E10 /* JanewayApp.xcdatamodeld */,
+				31E8A81A1CE0CAE900555E10 /* Section+CoreDataProperties.h */,
+				31E8A81B1CE0CAE900555E10 /* Section+CoreDataProperties.m */,
+				31E8A81C1CE0CAE900555E10 /* Section.h */,
+				31E8A81D1CE0CAE900555E10 /* Section.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5CB6B099B7FB47CB234072D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				362F3B1EBF9389B3129C7579 /* Pods-JanewayApp.debug.xcconfig */,
+				045238EB068DEAB79C7FE018 /* Pods-JanewayApp.release.xcconfig */,
+				8C9B178402EE9CB5B5998F9B /* Pods-JanewayAppTests.debug.xcconfig */,
+				2CEEB5BC3538325666F3BFB3 /* Pods-JanewayAppTests.release.xcconfig */,
+				8F9ADF6EBCAAC05FFC860C42 /* Pods-JanewayAppUITests.debug.xcconfig */,
+				35B70E68AEFAAB5BA96BA5E4 /* Pods-JanewayAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCF937AEB521A5137AB6D3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D546293D78D7D674F36001 /* libPods-JanewayApp.a */,
+				087B39E9FF4574E49236EBBF /* libPods-JanewayAppTests.a */,
+				58A1C45E77F0B0207FA89788 /* libPods-JanewayAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31E8A7D41CE0B85400555E10 /* JanewayApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E8A8051CE0B85400555E10 /* Build configuration list for PBXNativeTarget "JanewayApp" */;
+			buildPhases = (
+				7484F40CFD5F2CF4756AFDD0 /* [CP] Check Pods Manifest.lock */,
+				31E8A7D11CE0B85400555E10 /* Sources */,
+				31E8A7D21CE0B85400555E10 /* Frameworks */,
+				31E8A7D31CE0B85400555E10 /* Resources */,
+				59D52887A0AE1ED7DF04AFF2 /* [CP] Embed Pods Frameworks */,
+				8D185F71D1D09F1456E42FA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JanewayApp;
+			productName = JanewayApp;
+			productReference = 31E8A7D51CE0B85400555E10 /* JanewayApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31E8A7F01CE0B85400555E10 /* JanewayAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E8A8081CE0B85400555E10 /* Build configuration list for PBXNativeTarget "JanewayAppTests" */;
+			buildPhases = (
+				1A26E6C12A154C8E878E4B7F /* [CP] Check Pods Manifest.lock */,
+				31E8A7ED1CE0B85400555E10 /* Sources */,
+				31E8A7EE1CE0B85400555E10 /* Frameworks */,
+				31E8A7EF1CE0B85400555E10 /* Resources */,
+				C1B468696938708961C98F07 /* [CP] Embed Pods Frameworks */,
+				B46E707BD448C1FF73ECBAA3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31E8A7F31CE0B85400555E10 /* PBXTargetDependency */,
+			);
+			name = JanewayAppTests;
+			productName = JanewayAppTests;
+			productReference = 31E8A7F11CE0B85400555E10 /* JanewayAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31E8A7FB1CE0B85400555E10 /* JanewayAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E8A80B1CE0B85400555E10 /* Build configuration list for PBXNativeTarget "JanewayAppUITests" */;
+			buildPhases = (
+				7DAFA027F32D33F768E81FCB /* [CP] Check Pods Manifest.lock */,
+				31E8A7F81CE0B85400555E10 /* Sources */,
+				31E8A7F91CE0B85400555E10 /* Frameworks */,
+				31E8A7FA1CE0B85400555E10 /* Resources */,
+				AE1188714F3BAF8FBE209B2E /* [CP] Embed Pods Frameworks */,
+				A82D513B6207513D21852FED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31E8A7FE1CE0B85400555E10 /* PBXTargetDependency */,
+			);
+			name = JanewayAppUITests;
+			productName = JanewayAppUITests;
+			productReference = 31E8A7FC1CE0B85400555E10 /* JanewayAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31E8A7CD1CE0B85400555E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = winemocol;
+				TargetAttributes = {
+					31E8A7D41CE0B85400555E10 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DQNF9MUZE2;
+					};
+					31E8A7F01CE0B85400555E10 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 31E8A7D41CE0B85400555E10;
+					};
+					31E8A7FB1CE0B85400555E10 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 31E8A7D41CE0B85400555E10;
+					};
+				};
+			};
+			buildConfigurationList = 31E8A7D01CE0B85400555E10 /* Build configuration list for PBXProject "JanewayApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31E8A7CC1CE0B85400555E10;
+			productRefGroup = 31E8A7D61CE0B85400555E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31E8A7D41CE0B85400555E10 /* JanewayApp */,
+				31E8A7F01CE0B85400555E10 /* JanewayAppTests */,
+				31E8A7FB1CE0B85400555E10 /* JanewayAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31E8A7D31CE0B85400555E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C819D01E774D8300806DCA /* setting.plist in Resources */,
+				31C819D51E784F7D00806DCA /* janewayDB.sqlite3 in Resources */,
+				0699870A1D31D73A00359784 /* PageFalls_Laundry.html in Resources */,
+				EAD9AAB41D0B1402007316E8 /* PageIngestion.html in Resources */,
+				069986EC1D31C7BB00359784 /* PageHighchairs.html in Resources */,
+				316D154E1D3412BE00DC0D86 /* PageInfo.html in Resources */,
+				EAD9AAB21D0B13A0007316E8 /* PageDrowning.html in Resources */,
+				31E8A7EB1CE0B85400555E10 /* LaunchScreen.storyboard in Resources */,
+				069986FE1D31CDF600359784 /* PageBurn_livingroom.html in Resources */,
+				069986F61D31CA5700359784 /* PageLinks_Kitchen.html in Resources */,
+				069987041D31D1C400359784 /* PageCribSafety.html in Resources */,
+				311E6BC81D6CDA8D0085CC40 /* onGo.xml in Resources */,
+				0699870C1D31D7EA00359784 /* PageIngestion_Laundry.html in Resources */,
+				EAD9AAB01D0B1332007316E8 /* PageFalling.html in Resources */,
+				EAD9AAB61D0B14A8007316E8 /* PageLinks.html in Resources */,
+				069986FA1D31CCA500359784 /* PageChoking_Livingroom.html in Resources */,
+				0699871A1D31E1A600359784 /* PagesTraveling.html in Resources */,
+				069986F81D31CB9800359784 /* PageFalls_Living.html in Resources */,
+				069986F41D31C9FB00359784 /* PageFalls_Kitchen.html in Resources */,
+				31771C4B1CE2BFC500DE863D /* navi.png in Resources */,
+				069987101D31D96C00359784 /* PageFireSafety.html in Resources */,
+				311E6BCE1D6DE1F00085CC40 /* atHome.xml in Resources */,
+				069986F21D31C95200359784 /* PageIngestion_Kitchen.html in Resources */,
+				31E8A7E81CE0B85400555E10 /* Assets.xcassets in Resources */,
+				0699871C1D31E3E400359784 /* PagesDriveway.html in Resources */,
+				069986EA1D31C71000359784 /* PageBurnsCuts.html in Resources */,
+				EAD9AAAE1D0B1305007316E8 /* PageBurns.html in Resources */,
+				069987181D31E12600359784 /* PagesBaby.html in Resources */,
+				0699870E1D31D91500359784 /* PageSafetyTips.html in Resources */,
+				069987121D31DD2D00359784 /* PageCarSeatSafety.html in Resources */,
+				069987021D31D01900359784 /* PageSafeSleep.html in Resources */,
+				0699871E1D31E46D00359784 /* PageLink_OnGo.html in Resources */,
+				069986FC1D31CD6700359784 /* PagePlaypen.html in Resources */,
+				069987141D31DF7F00359784 /* PagesStrollerSafety.html in Resources */,
+				31E8A7E31CE0B85400555E10 /* Main.storyboard in Resources */,
+				069987001D31CE5900359784 /* PageLink_Livingroom.html in Resources */,
+				069986F01D31C88800359784 /* PageChoking.html in Resources */,
+				069987081D31D68C00359784 /* PageOtherBedroom.html in Resources */,
+				069987161D31E04E00359784 /* PagesPlaygroundSafety.html in Resources */,
+				069987061D31D40C00359784 /* PageFalls_Bedroom.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E8A7EF1CE0B85400555E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E8A7FA1CE0B85400555E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A26E6C12A154C8E878E4B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59D52887A0AE1ED7DF04AFF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanewayApp/Pods-JanewayApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7484F40CFD5F2CF4756AFDD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DAFA027F32D33F768E81FCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D185F71D1D09F1456E42FA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanewayApp/Pods-JanewayApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82D513B6207513D21852FED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanewayAppUITests/Pods-JanewayAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE1188714F3BAF8FBE209B2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanewayAppUITests/Pods-JanewayAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B46E707BD448C1FF73ECBAA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanewayAppTests/Pods-JanewayAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B468696938708961C98F07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JanewayAppTests/Pods-JanewayAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31E8A7D11CE0B85400555E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E8A7DD1CE0B85400555E10 /* AppDelegate.m in Sources */,
+				31C819D81E7B031800806DCA /* MessageTableViewCell.m in Sources */,
+				0608AE201D096887008EFB79 /* WebTableViewCell.m in Sources */,
+				31AFD9611D09FA230044DA2D /* OnGoWebViewController.m in Sources */,
+				316D15491D316AE300DC0D86 /* InfoViewController.m in Sources */,
+				0608AE1D1D096873008EFB79 /* ImageTableViewCell.m in Sources */,
+				31C819DB1E7C36CC00806DCA /* MessageViewController.m in Sources */,
+				31E8A81F1CE0CAE900555E10 /* Section.m in Sources */,
+				0608AE171D095095008EFB79 /* OnGoTableViewController.m in Sources */,
+				31A228C01D08A92C0099FFA0 /* WebViewController.m in Sources */,
+				31E8A81E1CE0CAE900555E10 /* Section+CoreDataProperties.m in Sources */,
+				31E8A8231CE0E13C00555E10 /* SubTableViewController.m in Sources */,
+				31E8A8261CE0E19A00555E10 /* subTableViewCell.m in Sources */,
+				31E8A8131CE0BC5800555E10 /* FirstTableViewCell.m in Sources */,
+				0608AE1A1D0950B7008EFB79 /* OnGoSubTableViewController.m in Sources */,
+				31E8A8161CE0BC6900555E10 /* RemainTableViewCell.m in Sources */,
+				31E8A7DA1CE0B85400555E10 /* main.m in Sources */,
+				31E8A8101CE0BC2B00555E10 /* AtHomeTableViewController.m in Sources */,
+				316D154C1D316B8900DC0D86 /* BulletinTableViewController.m in Sources */,
+				31E8A7E61CE0B85400555E10 /* JanewayApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E8A7ED1CE0B85400555E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E8A7F61CE0B85400555E10 /* JanewayAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E8A7F81CE0B85400555E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E8A8011CE0B85400555E10 /* JanewayAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31E8A7F31CE0B85400555E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31E8A7D41CE0B85400555E10 /* JanewayApp */;
+			targetProxy = 31E8A7F21CE0B85400555E10 /* PBXContainerItemProxy */;
+		};
+		31E8A7FE1CE0B85400555E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31E8A7D41CE0B85400555E10 /* JanewayApp */;
+			targetProxy = 31E8A7FD1CE0B85400555E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31E8A7E11CE0B85400555E10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E8A7E21CE0B85400555E10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31E8A7E91CE0B85400555E10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E8A7EA1CE0B85400555E10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31E8A8031CE0B85400555E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31E8A8041CE0B85400555E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31E8A8061CE0B85400555E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362F3B1EBF9389B3129C7579 /* Pods-JanewayApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JanewayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.winemocol.JanewayApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		31E8A8071CE0B85400555E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 045238EB068DEAB79C7FE018 /* Pods-JanewayApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JanewayApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.winemocol.JanewayApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		31E8A8091CE0B85400555E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9B178402EE9CB5B5998F9B /* Pods-JanewayAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JanewayAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = winemocol.JanewayAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JanewayApp.app/JanewayApp";
+			};
+			name = Debug;
+		};
+		31E8A80A1CE0B85400555E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CEEB5BC3538325666F3BFB3 /* Pods-JanewayAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JanewayAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = winemocol.JanewayAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JanewayApp.app/JanewayApp";
+			};
+			name = Release;
+		};
+		31E8A80C1CE0B85400555E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9ADF6EBCAAC05FFC860C42 /* Pods-JanewayAppUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = JanewayAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = winemocol.JanewayAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JanewayApp;
+			};
+			name = Debug;
+		};
+		31E8A80D1CE0B85400555E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B70E68AEFAAB5BA96BA5E4 /* Pods-JanewayAppUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = JanewayAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = winemocol.JanewayAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JanewayApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31E8A7D01CE0B85400555E10 /* Build configuration list for PBXProject "JanewayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E8A8031CE0B85400555E10 /* Debug */,
+				31E8A8041CE0B85400555E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E8A8051CE0B85400555E10 /* Build configuration list for PBXNativeTarget "JanewayApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E8A8061CE0B85400555E10 /* Debug */,
+				31E8A8071CE0B85400555E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E8A8081CE0B85400555E10 /* Build configuration list for PBXNativeTarget "JanewayAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E8A8091CE0B85400555E10 /* Debug */,
+				31E8A80A1CE0B85400555E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E8A80B1CE0B85400555E10 /* Build configuration list for PBXNativeTarget "JanewayAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E8A80C1CE0B85400555E10 /* Debug */,
+				31E8A80D1CE0B85400555E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31E8A7E41CE0B85400555E10 /* JanewayApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31E8A7E51CE0B85400555E10 /* JanewayApp.xcdatamodel */,
+			);
+			currentVersion = 31E8A7E51CE0B85400555E10 /* JanewayApp.xcdatamodel */;
+			path = JanewayApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31E8A7CD1CE0B85400555E10 /* Project object */;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<section>
+		<title>Safety Concerns on the Go</title>
+		<description>A child’s curiosity though is often what puts them at risk for injury, especially when they discover all the new and exciting things in the outdoors. Here are some safety tips to help you keep your child free from injury when outside of the home.</description>
+		<subSection>
+			<title>Car seat safety</title>
+			<description>Car seats are designed to protect children from injury during a collision. The type of seat your child needs depends on your child’s age and size.</description>
+			<link>PageCarSeatSafety</link>
+		</subSection>
+		<subSection>
+			<title>Stroller safety</title>
+			<description>Stroller safety begins with choosing the proper stroller to fit you and your child’s lifestyle and needs.</description>
+			<link>PagesStrollerSafety</link>
+		</subSection>
+		<subSection>
+			<title>Playground safety</title>
+			<description>Here are some useful tips to make your trips to the playground with your child fun and injury free.</description>
+			<link>PagesPlaygroundSafety</link>
+		</subSection>
+		<subSection>
+			<title>Baby slings and carriers</title>
+			<description>Baby slings and carriers allow parents to keep their children close as they go about their routines but improper use can lead to injury. Here are some tips to safely use a sling/carrier.</description>
+			<link>PagesBaby</link>
+		</subSection>
+		<subSection>
+			<title>Travelling with children</title>
+			<description>It is important to plan out a trip when travelling with children. See below for some tips on how to make flying a pleasant experience for you and your child.</description>
+			<link>PagesTraveling</link>
+		</subSection>
+		<subSection>
+			<title>Driveway/backyard</title>
+			<description>Pick up any toys and play items that can attract your child from the driveway.</description>
+			<link>PagesDriveway</link>
+		</subSection>
+		<subSection>
+			<title>Additional information</title>
+			<description></description>
+			<link>PageLink_OnGo</link>
+		</subSection>
+	</section>
+</rss>
