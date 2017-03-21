@@ -757,9 +757,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7JF-SM-Eq9">
-                                <rect key="frame" x="279" y="138" width="58" height="15"/>
+                                <rect key="frame" x="235" y="138" width="102" height="15"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="58" id="8tx-zO-YyE"/>
+                                    <constraint firstAttribute="width" constant="102" id="8tx-zO-YyE"/>
                                     <constraint firstAttribute="height" constant="15" id="WAz-xR-ird"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
@@ -976,7 +976,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Janeway" width="57" height="22"/>
+        <image name="Janeway" width="639" height="242"/>
         <image name="rightArrow" width="22" height="22"/>
     </resources>
     <inferredMetricsTieBreakers>
