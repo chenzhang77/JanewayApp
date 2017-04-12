@@ -21,16 +21,49 @@
     
     
     _titleMessage.text = _titleString;
-    _detailMessage.text = _detailString;
+    //_detailMessage.text = _detailString;
     _timeMessage.text = _timeString;
+    
+ 
     [_detailMessage sizeToFit];
+    
 }
 -(void) viewWillAppear:(BOOL)animated {
     
     [super viewWillAppear:animated];
+   
+   
     NSLog(@"MessageViewController   =  %@", _titleMessage.text);
 }
 
+-(void) viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+   // _detailMessage.contentOffset= CGPointMake(0, 0);
+    
+    _detailMessage.scrollView.bounces = NO;
+
+    NSArray* foo = [_detailString componentsSeparatedByString: @"\n"];
+    
+    
+    
+    NSString* firstLine = [foo objectAtIndex: 0];
+    
+    NSString* SecondLine = [foo objectAtIndex: 1];
+    
+    NSString* ThirdLine = [foo objectAtIndex: 2];
+    
+    NSString* html = [NSString stringWithFormat:@"<html><body><p>%@</p><p>%@</p><p align=\"justify\">%@</p></body></html>",firstLine,SecondLine,ThirdLine];
+    
+    
+    [_detailMessage loadHTMLString:html baseURL:NULL];
+    
+    [_detailMessage.scrollView setContentSize: CGSizeMake(_detailMessage.frame.size.width, _detailMessage.scrollView.contentSize.height)];
+   
+}
+
+- (void)viewDidLayoutSubviews {
+   // [_detailMessage setContentOffset:CGPointZero animated:NO];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

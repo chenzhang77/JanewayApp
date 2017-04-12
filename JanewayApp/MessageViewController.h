@@ -13,7 +13,7 @@
 @property (nonatomic,strong) IBOutlet UIImageView *imageMessage;
 @property (nonatomic,strong) IBOutlet UILabel *timeMessage;
 @property (nonatomic,strong) IBOutlet UILabel *titleMessage;
-@property (nonatomic,strong) IBOutlet UITextView *detailMessage;
+@property (nonatomic,strong) IBOutlet UIWebView *detailMessage;
 
 @property (strong, nonatomic)          NSString *titleString;
 @property (strong, nonatomic)          NSString *timeString;
